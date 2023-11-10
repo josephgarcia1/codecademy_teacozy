@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+
+}
+
+h1{
+    font-size: 58px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 28px;
+}
+h5{
+    font-size: 22px;
+}
+h6{
+    font-size: 17px;
+}
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.TeaCozy img{
+    height: 50px;
+}
+nav{
+    width: 30%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    gap: 20px;
+}
+
+/*header end*/
+
+/*mission*/
+
+.Mission{
+    height: 700px;
+    background: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Mission h2, .Mission h4{
+    padding: 10px 0;
+}
+
+/*mission end*/
+
+/*featured tea*/
+
+.Featured-Tea{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.Featured-Tea-Heading{
+    text-align: center;
+}
+.Featured-Tea-Heading h4{
+    margin-top: 30px;
+}
+.Featured-Tea-Menu{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 1000px;
+}
+
+.Featured-Tea-Item{
+    width: 300px;
+    text-align: center;
+}
+
+.Featured-Tea-Item img, .Featured-Tea-Item h4{
+    width: 300px;
+}
+
+.Featured-Tea-Item h4{
+    margin-top: 10px;
+}
+
+/*featured tea end*/
+
+/*location*/
+
+.Locations{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.Locations-Background{
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px
+}
+.Locations-Background h2{
+    text-align: center;
+    background: none;
+}
+
+.Locations-Card_Container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: none;
+}
+.Location-Card{
+    width: 300px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+/* location end */
+
+/* footer */
+
+.Contact{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+footer h6{
+    margin-top: 50px;
+}
